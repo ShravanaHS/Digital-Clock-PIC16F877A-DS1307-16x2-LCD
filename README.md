@@ -38,6 +38,7 @@ This project primarily uses **I2C (Inter-Integrated Circuit)** communication pro
 
 The PIC acts as an I2C master, initiating read/write operations with the DS1307 slave device. Proper pull-up resistors on SDA and SCL lines ensure reliable signal levels.
 
+###Learn more: [I2C Protocol by foolish engineer](https://youtube.com/playlist?list=PLbGlpmZLQWJceYTFXwBjYnUNN2vyVKYNA&feature=shared)
 ---
 
 ### DS1307 RTC IC [datasheet](https://www.alldatasheet.com/datasheet-pdf/view/123888/DALLAS/DS1307.html).
@@ -48,7 +49,7 @@ The **DS1307** is a low-power clock/calendar IC with a built-in 32.768 kHz cryst
 - Square wave output (not used in this project)
 
 This IC enables precise 1-second timekeeping and stores the current date and time in Binary-Coded Decimal (BCD) format, which is read and decoded by the PIC MCU.
-
+###Learn more: [datasheet](https://www.alldatasheet.com/datasheet-pdf/view/123888/DALLAS/DS1307.html)
 ---
 
 ### PIC16F877A Microcontroller [datasheet](https://www.alldatasheet.com/datasheet-pdf/view/82338/MICROCHIP/PIC16F877A.html).
@@ -60,6 +61,7 @@ The **PIC16F877A** is an 8-bit microcontroller by Microchip featuring:
 
 The MCU handles reading RTC data via I2C, converting BCD values, and controlling the LCD display.
 
+###Learn more: [SM training academy](https://youtube.com/playlist?list=PL_zvrXFdKgZpTrM99mypGVW5JBZ6tQZiR&feature=shared)
 ---
 
 ### HD44780 LCD Display  [datasheet](https://cdn.sparkfun.com/assets/9/5/f/7/b/HD44780.pdf). 
@@ -72,7 +74,7 @@ The LCD operates in 8-bit mode, with three control pins connected to PORTB (RS, 
 ---
 
 ## Screenshots  
-*(Add images/screenshots below to illustrate key stages)*
+
 
 - **Circuit Schematic**  
 ![Schematic](path_to_schematic_image.jpg)
