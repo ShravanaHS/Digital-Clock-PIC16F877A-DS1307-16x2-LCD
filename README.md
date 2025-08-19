@@ -77,7 +77,7 @@ The LCD operates in 8-bit mode, with three control pins connected to PORTB (RS, 
 
 ---
 ## Firmware code
-### Code is written in ** Embedded C language** on **MPLAB X IDE** . Generated _.hex_ file is simulated in ** SimulIDE ** 
+Code is written in **Embedded C language** on **MPLAB X IDE** . Generated _.hex_ file is simulated in **SimulIDE** .
 
 ```c
 /******************************************************
