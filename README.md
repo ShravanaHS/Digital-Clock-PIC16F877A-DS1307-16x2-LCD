@@ -426,4 +426,8 @@ void DS1307_read(uint8_t slave_address, uint8_t register_address)
 ![Circuit schematic](https://github.com/ShravanaHS/Digital-Clock-PIC16F877A-DS1307-16x2-LCD/raw/main/images/onehzchalenge3.png)  
 *Figure 8: 3D cad model*
 
+## Download
+
+All project files for the PIC16F877A Digital Clock are available for download here:  
+[Download the project ZIP](https://github.com/ShravanaHS/Digital-Clock-PIC16F877A-DS1307-16x2-LCD/raw/main/Projectfiles/digitalclock.zip)
 
