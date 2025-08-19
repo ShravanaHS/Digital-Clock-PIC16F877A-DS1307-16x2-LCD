@@ -79,10 +79,22 @@ The LCD operates in 8-bit mode, with three control pins connected to PORTB (RS, 
 
 ## Screenshots  
 
-- **Circuit Schematic**  
-![Schematic](path_to_schematic_image.jpg)
+### Circuit Schematic  
+![Circuit schematic](https://github.com/ShravanaHS/Digital-Clock-PIC16F877A-DS1307-16x2-LCD/raw/main/images/Schematic.png)  
+*Figure 1: Circuit schematic showing PIC16F877A, DS1307 RTC, and LCD connections.*
 
-- **LCD Display Output Showing Time and Date**  
-![LCD Output](path_to_lcd_output_image.jpg)
+### Circuit Layout Front
+![Circuit schematic](https://github.com/ShravanaHS/Digital-Clock-PIC16F877A-DS1307-16x2-LCD/raw/main/images/Schematic.png)  
+*Figure 2: Circuit layout showing PIC16F877A, DS1307 RTC, and LCD connections.*
 
-- **Code Snippets**  
+### Circuit Layout Back  
+![Circuit schematic](https://github.com/ShravanaHS/Digital-Clock-PIC16F877A-DS1307-16x2-LCD/raw/main/images/Schematic.png)  
+*Figure 3: Circuit Layout showing PIC16F877A, DS1307 RTC, and LCD connections.*
+### Circuit Simulation 
+![Circuit schematic](https://github.com/ShravanaHS/Digital-Clock-PIC16F877A-DS1307-16x2-LCD/raw/main/images/Schematic.png)  
+*Figure 4: Circuit simulation on simulIDE showing PIC16F877A, DS1307 RTC, and LCD connections.*
+### Circuit 3D Model  
+![Circuit schematic](https://github.com/ShravanaHS/Digital-Clock-PIC16F877A-DS1307-16x2-LCD/raw/main/images/Schematic.png)  
+*Figure 5: 3D cad model*
+
+
