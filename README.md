@@ -84,17 +84,26 @@ The LCD operates in 8-bit mode, with three control pins connected to PORTB (RS, 
 *Figure 1: Circuit schematic showing PIC16F877A, DS1307 RTC, and LCD connections.*
 
 ### Circuit Layout Front
-![Circuit schematic](https://github.com/ShravanaHS/Digital-Clock-PIC16F877A-DS1307-16x2-LCD/raw/main/images/Schematic.png)  
+![Circuit schematic](https://github.com/ShravanaHS/Digital-Clock-PIC16F877A-DS1307-16x2-LCD/raw/main/images/layout.png)  
 *Figure 2: Circuit layout showing PIC16F877A, DS1307 RTC, and LCD connections.*
 
 ### Circuit Layout Back  
-![Circuit schematic](https://github.com/ShravanaHS/Digital-Clock-PIC16F877A-DS1307-16x2-LCD/raw/main/images/Schematic.png)  
+![Circuit schematic](https://github.com/ShravanaHS/Digital-Clock-PIC16F877A-DS1307-16x2-LCD/raw/main/images/layoutb.png)  
 *Figure 3: Circuit Layout showing PIC16F877A, DS1307 RTC, and LCD connections.*
 ### Circuit Simulation 
-![Circuit schematic](https://github.com/ShravanaHS/Digital-Clock-PIC16F877A-DS1307-16x2-LCD/raw/main/images/Schematic.png)  
+![Circuit schematic](https://github.com/ShravanaHS/Digital-Clock-PIC16F877A-DS1307-16x2-LCD/raw/main/images/simulation.png)  
 *Figure 4: Circuit simulation on simulIDE showing PIC16F877A, DS1307 RTC, and LCD connections.*
 ### Circuit 3D Model  
-![Circuit schematic](https://github.com/ShravanaHS/Digital-Clock-PIC16F877A-DS1307-16x2-LCD/raw/main/images/Schematic.png)  
+![Circuit schematic](https://github.com/ShravanaHS/Digital-Clock-PIC16F877A-DS1307-16x2-LCD/raw/main/images/onehzchalenge.png)  
 *Figure 5: 3D cad model*
+
+![Circuit schematic](https://github.com/ShravanaHS/Digital-Clock-PIC16F877A-DS1307-16x2-LCD/raw/main/images/onehzchalenge1.png)  
+*Figure 6: 3D cad model*
+
+![Circuit schematic](https://github.com/ShravanaHS/Digital-Clock-PIC16F877A-DS1307-16x2-LCD/raw/main/images/onehzchalenge2.png)  
+*Figure 7: 3D cad model*
+
+![Circuit schematic](https://github.com/ShravanaHS/Digital-Clock-PIC16F877A-DS1307-16x2-LCD/raw/main/images/onehzchalenge3.png)  
+*Figure 8: 3D cad model*
 
 
