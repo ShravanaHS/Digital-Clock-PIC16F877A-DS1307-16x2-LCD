@@ -2,6 +2,7 @@
 
 ## Introduction
 This project is a digital real-time clock built using the PIC16F877A microcontroller, DS1307 real-time clock (RTC) IC, and an HD44780 16x2 LCD display. The clock displays current time (hours, minutes, seconds) and date (day, month, year) with high accuracy by leveraging the DS1307’s battery-backed I2C communication. This is a complete embedded system demonstrating microcontroller peripheral interfacing and real-time data display.
+This project is listed in [Hackaday.io](https://hackaday.io/project/203822-1hz-embedded-clock-pic16f877a-ds1307-16x2-lcd)
 
 ---
 
