@@ -76,15 +76,22 @@ A standard **16x2 alphanumeric LCD** based on the HD44780 controller is used for
 The LCD operates in 8-bit mode, with three control pins connected to PORTB (RS, RW, EN) and data pins connected to PORTD. Contrast and backlight are adjusted with an external potentiometer and resistor respectively.
 
 ---
+## Firmware code
+### Code is written in ** Embedded C language** on **MPLAB X IDE** . Generated _.hex_ file is simulated in ** SimulIDE ** 
 
-## Screenshots  
-
+```c
+if (temperature > 30) {
+    // Turn on fan
+} else {
+    // Turn off fan
+}
+```
 ### Circuit Schematic  
 ![Circuit schematic](https://github.com/ShravanaHS/Digital-Clock-PIC16F877A-DS1307-16x2-LCD/raw/main/images/Schematic.png)  
 *Figure 1: Circuit schematic showing PIC16F877A, DS1307 RTC, and LCD connections.*
 
 ### Circuit Layout Front
-![Circuit schematic](https://github.com/ShravanaHS/Digital-Clock-PIC16F877A-DS1307-16x2-LCD/raw/main/images/layout.png)  
+![Circuit schematic](https://github.com/ShravanaHS/Digital-Clock-PIC16F877A-DS1307-16x2-LCD/raw/main/images/layoutf.png)  
 *Figure 2: Circuit layout showing PIC16F877A, DS1307 RTC, and LCD connections.*
 
 ### Circuit Layout Back  
