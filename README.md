@@ -6,15 +6,16 @@ This project is a digital real-time clock built using the PIC16F877A microcontro
 ---
 
 ## Tools Used
-- **[MPLAB X IDE](https://www.microchip.com/en-us/development-tools-tools-and-software/mplab-x-ide)** – For firmware development and debugging
-- **[Microchip XC8 Compiler](https://www.microchip.com/en-us/development-tools-tools-and-software/mplab-xc-compilers)** – C compiler for PIC microcontrollers
-- **[simulIDE](https://simulide.com/p/)** – Schematic capture and simulation software (optional)
-- **[Kicad](https://www.kicad.org/)** – Schematic and PCB design. 
-- **[Onshape](https://www.onshape.com/en/)** – For CAD encloser Design.
+- [**MPLAB X IDE**](https://www.microchip.com/en-us/development-tools-tools-and-software/mplab-x-ide) – For firmware development and debugging
+- [**Microchip XC8 Compiler**](https://www.microchip.com/en-us/development-tools-tools-and-software/mplab-xc-compilers) – C compiler for PIC microcontrollers
+- [**simulIDE**](https://simulide.com/p/) – Schematic capture and simulation software (optional)
+- [**Kicad**](https://www.kicad.org/) – Schematic and PCB design
+- [**Onshape**](https://www.onshape.com/en/) – For CAD enclosure design
 
 ---
 
 ## Components Used
+
 | Component               | Description                        | Quantity |
 |-------------------------|----------------------------------|----------|
 | PIC16F877A              | 8-bit microcontroller             | 1        |
@@ -25,7 +26,6 @@ This project is a digital real-time clock built using the PIC16F877A microcontro
 | 4.7kΩ Resistors         | Pull-ups for I2C communication   | 2        |
 | 10kΩ Potentiometer      | LCD contrast adjustment          | 1        |
 | Current limiting resistor (220Ω) | For LCD backlight       | 1        |
-
 
 ---
 
@@ -38,10 +38,11 @@ This project primarily uses **I2C (Inter-Integrated Circuit)** communication pro
 
 The PIC acts as an I2C master, initiating read/write operations with the DS1307 slave device. Proper pull-up resistors on SDA and SCL lines ensure reliable signal levels.
 
-###Learn more: [I2C Protocol by foolish engineer](https://youtube.com/playlist?list=PLbGlpmZLQWJceYTFXwBjYnUNN2vyVKYNA&feature=shared)
+### Learn more: [I2C Protocol by foolish engineer](https://youtube.com/playlist?list=PLbGlpmZLQWJceYTFXwBjYnUNN2vyVKYNA&feature=shared)
+
 ---
 
-### DS1307 RTC IC [datasheet](https://www.alldatasheet.com/datasheet-pdf/view/123888/DALLAS/DS1307.html).
+### DS1307 RTC IC [datasheet](https://www.alldatasheet.com/datasheet-pdf/view/123888/DALLAS/DS1307.html)
 The **DS1307** is a low-power clock/calendar IC with a built-in 32.768 kHz crystal oscillator. It provides:
 - Real-time tracking of seconds, minutes, hours, day, date, month, and year with leap-year compensation
 - I2C-compatible serial interface for communication
@@ -49,10 +50,12 @@ The **DS1307** is a low-power clock/calendar IC with a built-in 32.768 kHz cryst
 - Square wave output (not used in this project)
 
 This IC enables precise 1-second timekeeping and stores the current date and time in Binary-Coded Decimal (BCD) format, which is read and decoded by the PIC MCU.
-###Learn more: [datasheet](https://www.alldatasheet.com/datasheet-pdf/view/123888/DALLAS/DS1307.html)
+
+### Learn more: [DS1307 Datasheet](https://www.alldatasheet.com/datasheet-pdf/view/123888/DALLAS/DS1307.html)
+
 ---
 
-### PIC16F877A Microcontroller [datasheet](https://www.alldatasheet.com/datasheet-pdf/view/82338/MICROCHIP/PIC16F877A.html).
+### PIC16F877A Microcontroller [datasheet](https://www.alldatasheet.com/datasheet-pdf/view/82338/MICROCHIP/PIC16F877A.html)
 The **PIC16F877A** is an 8-bit microcontroller by Microchip featuring:
 - 40 pins with multiple I/O ports
 - MSSP module supporting I2C hardware communication on RC3 (SCL) and RC4 (SDA)
@@ -61,10 +64,11 @@ The **PIC16F877A** is an 8-bit microcontroller by Microchip featuring:
 
 The MCU handles reading RTC data via I2C, converting BCD values, and controlling the LCD display.
 
-###Learn more: [SM training academy](https://youtube.com/playlist?list=PL_zvrXFdKgZpTrM99mypGVW5JBZ6tQZiR&feature=shared)
+### Learn more: [SM training academy](https://youtube.com/playlist?list=PL_zvrXFdKgZpTrM99mypGVW5JBZ6tQZiR&feature=shared)
+
 ---
 
-### HD44780 LCD Display  [datasheet](https://cdn.sparkfun.com/assets/9/5/f/7/b/HD44780.pdf). 
+### HD44780 LCD Display [datasheet](https://cdn.sparkfun.com/assets/9/5/f/7/b/HD44780.pdf)
 A standard **16x2 alphanumeric LCD** based on the HD44780 controller is used for displaying:
 - Current time in `HH:MM:SS` format
 - Current date in `DD/MM/YY` format
@@ -74,7 +78,6 @@ The LCD operates in 8-bit mode, with three control pins connected to PORTB (RS, 
 ---
 
 ## Screenshots  
-
 
 - **Circuit Schematic**  
 ![Schematic](path_to_schematic_image.jpg)
