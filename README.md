@@ -80,7 +80,7 @@ The LCD operates in 8-bit mode, with three control pins connected to PORTB (RS, 
 ## Firmware code
 Code is written in **Embedded C language** on **MPLAB X IDE** . Generated _.hex_ file is simulated in **SimulIDE** .
 
-``` Embedded C
+```C
 /******************************************************
  * PIC16F877A + DS1307 RTC + 16x2 LCD (4-bit interface)
  * Clock + Date display
